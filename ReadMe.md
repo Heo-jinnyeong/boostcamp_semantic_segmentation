@@ -111,7 +111,7 @@
 <h3> 2. Model Ensemble   </h3>  
 
 - Backbone으로서 CNN 계열을 사용하는 UPerNet_ConvNeXt와 Transformer 계열을 사용하는 UPerNet_BEiT는 약간 상이한 예측결과를 낸다는 점을 활용하여, 두 모델을 토대로 Model Ensemble을 진행하였다.
-- 각 픽셀 별로 Hard Voing을 진행하며, 동률인 픽셀에 대해서는 각 픽셀의 카테고리 Accuracy를 비교하여 높은 쪽의 픽셀을 채택하였고, 성능이 소량 향상하였다.
+- 각 픽셀 별로 Hard Voing을 진행하며, 서로 다르게 예측한 픽셀에 대해서는 각 픽셀의 카테고리 Accuracy를 비교하여 높은 쪽의 픽셀을 채택하였고, 성능이 소량 향상하였다.
 
 
 # Reference
